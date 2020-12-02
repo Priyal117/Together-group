@@ -8,21 +8,23 @@
   </head>
   <body>
     <!-- NAVIGATION -->
-    <nav class="navbar">
-      <ul class="nav">
-        <li class="nav-item"><a href="#" class="brand">LOGO</a></li>
-        <li class="nav-item"><a href="#">Home</a></li>
-        <li class="nav-item"><a href="#">About</a></li>
-        <li class="nav-item"><a href="#">Destinations</a></li>
-        <li class="nav-item"><a href="#">Booking</a></li>
-        <li class="nav-item"><a href="#">Contact</a></li>
-      </ul>
+    <nav class="nav">
+      <div class="container">
+        <h1 class="logo"><a href="#">Royal Route</a></h1>
+        <ul>
+          <li><a href="#" class="current">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Destination</a></li>
+          <li><a href="#">Booking</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
     </nav>
     <!-- END NAVIGATION -->
 
     <!-- Hero Section -->
-    <main class="hero">
-      <img src="" alt="This is Hero Image" />
+    <main id="hero">
+      <!-- <img src="/assets/hero.jpg" alt="This is Hero Image" /> -->
       <h1>Royal Route Tourism</h1>
     </main>
     <!-- END HERO -->
@@ -46,28 +48,30 @@
     <!--END ABOUT-->
 
     <!-- PLACES TO MUST VISIT SECTION -->
-    <section class="trending">
+    <section id="trending">
       <h2>Popular Destinations</h2>
-      <div class="destination">
-        <img class="dest-img" src="" alt="Dest image" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-          temporibus quas rerum doloribus.
-        </p>
-      </div>
-      <div class="destination">
-        <img class="dest-img" src="" alt="dest image" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-          temporibus explicabo odit, quos.
-        </p>
-      </div>
-      <div class="destination">
-        <img class="dest-img" src="" alt="dest image" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quas
-          qui quia non! Eius maiores facere.
-        </p>
+      <div class="places">
+        <div class="destination">
+          <img src="/assets/hero.jpg" alt="Dest image" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            temporibus quas rerum doloribus.
+          </p>
+        </div>
+        <div class="destination">
+          <img src="/assets/hero.jpg" alt="dest image" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            temporibus explicabo odit, quos.
+          </p>
+        </div>
+        <div class="destination">
+          <img src="/assets/hero.jpg" alt="dest image" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quas
+            qui quia non! Eius maiores facere.
+          </p>
+        </div>
       </div>
     </section>
     <!--END TRENDING-->
@@ -111,7 +115,7 @@
     <!-- NEWSLETTER SECTION -->
     <section class="newsletter">
       <h2>Join our newsletter for updates and deals</h2>
-      <input type="text" name="email" value="Enter your email" />
+      <input type="text" name="email" placeholder="Enter your email" />
       <button class="btn">Join</button>
     </section>
     <!-- END NEWSLETTER -->
